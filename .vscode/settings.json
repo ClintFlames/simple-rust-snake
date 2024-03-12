@@ -1,0 +1,21 @@
+{
+    "files.exclude": {
+        "Cargo.lock": true,
+        "target": true,
+        "**/.git": true
+    },
+    
+    "files.eol": "\n",
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "*.mutable": {
+                "underline": false,
+            }
+        }
+    }
+}

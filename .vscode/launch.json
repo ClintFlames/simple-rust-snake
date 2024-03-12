@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CRM Debug",
+            "type": "f5anything",
+            "request": "launch",
+            "command": "cool-retro-term --workdir . -e ./bash/run.sh",
+            "showTerminal": false
+        },
+        {
+            "name": "Konsole Debug",
+            "type": "f5anything",
+            "request": "launch",
+            "command": "konsole --workdir . -e ./bash/run.sh",
+            "showTerminal": false
+        },
+        {
+            "name": "CRM Debug Hold",
+            "type": "f5anything",
+            "request": "launch",
+            "command": "cool-retro-term --workdir . -e ./bash/run_hold.sh",
+            "showTerminal": false
+        },
+        {
+            "name": "Konsole Debug Hold",
+            "type": "f5anything",
+            "request": "launch",
+            "command": "konsole --workdir . -e ./bash/run_hold.sh",
+            "showTerminal": false
+        },
+        {
+            "name": "CRM Release",
+            "type": "f5anything",
+            "request": "launch",
+            "command": "cool-retro-term --workdir . -e ./bash/release.sh",
+            "showTerminal": false
+        },
+        {
+            "name": "Konsole Release",
+            "type": "f5anything",
+            "request": "launch",
+            "command": "konsole --workdir . -e ./bash/release.sh",
+            "showTerminal": false
+        }
+    ],
+}
